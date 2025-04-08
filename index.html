@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0930e85528.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Data Scientist</p>
+            <h1>Hi, I'm <span>Ntando</span><br>Molose</h1>
+            <h2>Your data expert</h2>
+        </div>  
+    </div>
+</div>
+
+<!-- -------------about--------------->
+<div id="about">  
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    A dedicated and detail-oriented individual looking for an 
+                    entry level position at a well reputed organization to gain 
+                    experience and exposure and expand my knowledge 
+                    and contribute to the success of the organization.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Managing Databases</span><br>Proficient in SQL databases (SQLite, MySQL, PostgreSQL), <br>with experience in data organization, optimization, and querying.</li>
+                        <li><span>Exploratory Data Analysis</span><br>Proficient in analyzing and visualizing data to <br>extract insights using Python libraries like Pandas, NumPy, Matplotlib, and Seaborn.</li>
+                        <li><span>Machine Learning</span><br>Skilled in developing and deploying machine learning models <br>with Scikit-learn, TensorFlow, and PyTorch, applying supervised and unsupervised learning techniques.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Managing Databases</span><br>Some text here</li>
+                        <li><span>Exploratory Data Analysis</span><br>Some text here</li>
+                        <li><span>Machine Learning</span><br>Some text here</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Managing Databases</span><br>Some text here</li>
+                        <li><span>Exploratory Data Analysis</span><br>Some text here</li>
+                        <li><span>Machine Learning</span><br>Some text here</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certifications">
+                    <ul>
+                        <li><span>Managing Databases</span><br>Some text here</li>
+                        <li><span>Exploratory Data Analysis</span><br>Some text here</li>
+                        <li><span>Machine Learning</span><br>Some text here</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+
+</div>
+
+<!-----------------services------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Databse Management</h2>
+                <p>Efficient database design, optimization, and maintenance using SQL-based databases. Ensuring data integrity, security, and performance.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-pie"></i>
+                <h2>Data Visualisation</h2>
+                <p>Transforming raw data into meaningful insights through interactive and static visualizations using tools like Matplotlib, Seaborn, and Tableau.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <h2>Business Intellingence</h2>
+                <p>Leveraging data analytics to drive strategic decision-making, providing actionable insights through dashboards, reports, and trend analysis.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- -----------------portfolio-------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Survey Form</h3>
+                    <p>Survey form developed for my personal webpage allowing customers 
+                    to share their insights</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Personal Finance Tracker</h3>
+                    <p>A Python-based application using Jupyter notebook to track personal income
+                    and expenses, saving data to a CSV file for analysis
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Data Analytics Dashboard</h3>
+                    <p>An interactive dashboard for visualizing and analyzing business metrics and
+                    KPIs with filtering and drill-down capabilities
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div> 
+
+<!-- -----------------contact------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ntandomolose@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+27 68 838 5958</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/ntando-molose"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Ntando-Mo"><i class="fa-brands fa-square-github"></i></i></a>
+                </div>
+                <a href="images/Ntando Molose CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ntando.</p>
+    </div>
+
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcont of tabcontents){
+            tabcont.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+
+</body>
+</html>
